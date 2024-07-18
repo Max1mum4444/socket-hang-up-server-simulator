@@ -1,0 +1,14 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "TZ=UTC ts-node main.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2"
+  }
+}
